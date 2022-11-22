@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+}
+body header {
+  background-color: black;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+body header nav h1 {
+  width: 20%;
+  color: #C0C0C0;
+}
+body header nav ul {
+  width: 20%;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+body header nav ul li i {
+  color: white;
+  font-size: 2em;
+  margin: auto;
+}
+body header nav .fa-bottle-droplet {
+  color: #F64E4E;
+}
+body #photo {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: auto;
+}
+body #produit {
+  background-color: #F64E4E;
+}
+body #produit #Cont_pho_para {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh;
+}
+body #produit #Cont_pho_para .photo_two {
+  width: 25vw;
+}
+body #produit #Cont_pho_para .photo_two img {
+  width: 100%;
+}
+body #produit #Cont_pho_para .photo_two .paragraphe {
+  text-align: center;
+  color: aqua;
+}
+body #produit #Cont_pho_para .photo_two .paragraphe p {
+  width: 40vh;
+  height: 40vh;
+}
+body #produit #Cont_pho_para .photo_two .paragraphe h3 {
+  font-size: 2em;
+}
+body footer {
+  height: 30vh;
+  text-align: center;
+  background-color: black;
+}
+body footer #cont_footer h3 {
+  color: gray;
+  margin-top: 0;
+}
+body footer #cont_footer #cont_sociaux {
+  width: 30%;
+  margin: auto;
+}
+body footer #cont_footer #cont_sociaux ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0;
+}
+body footer #cont_footer #cont_sociaux ul li .fa-twitter {
+  background-color: blue;
+  color: white;
+  font-size: 2em;
+}
+body footer #cont_footer #cont_sociaux ul li .fa-rss {
+  background-color: #F64E4E;
+  color: white;
+  font-size: 2em;
+}
+body footer #cont_footer #cont_sociaux ul li .fa-facebook-f {
+  width: 1.2em;
+  background-color: blue;
+  color: white;
+  font-size: 2em;
+}
+body footer #cont_footer #cont_sociaux ul li .fa-tree {
+  background-color: green;
+  color: white;
+  font-size: 2em;
+}
+body footer #cont_footer #cont_sociaux ul li .fa-google-plus-g {
+  color: white;
+  background-color: red;
+  font-size: 2em;
+}
+body footer #cont_footer #cont_sociaux ul li .fa-dribbble {
+  color: white;
+  background-color: pink;
+  font-size: 2em;
+}
+body footer #cont_footer #cont_sociaux ul li .fa-pinterest-p {
+  color: white;
+  background-color: red;
+  font-size: 2em;
+}
+body footer #cont_footer #cont_sociaux ul li .fa-instagram {
+  color: white;
+  background: linear-gradient(#e66465, #9198e5);
+  font-size: 2em;
+}
+body footer #cont_footer #stuff {
+  text-align: center;
+}
+body footer #cont_footer #stuff .freestuff {
+  width: 10%;
+  margin: auto;
+  background-color: #F64E4E;
+}
+body footer #cont_footer #stuff .freestuff a {
+  color: black;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

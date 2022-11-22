@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    header {
+        background-color: black;
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+            h1 {
+                width: 20%;
+                color: #C0C0C0;
+            }
+            ul {
+                width: 20%;
+                padding-left: 0;
+                display: flex;
+                justify-content: space-evenly;
+                list-style: none;
+
+                li {
+                    i {
+                        color: white;
+                        font-size: 2em;
+                        margin: auto;
+                    }
+                }
+            }
+        .fa-bottle-droplet{
+            color: #F64E4E;
+        }
+        }
+    }
+    #photo{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./images/1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin: auto;
+    }
+    #produit {
+        background-color: #F64E4E;
+        #Cont_pho_para {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10vh;
+        .photo_two {
+            width: 25vw;
+            // text-align: center;
+            img {
+                width: 100%;
+            }
+            .paragraphe {
+                text-align: center;
+                color: aqua;
+
+                p {
+                    width: 40vh;
+                    height: 40vh;
+                }
+                h3 {
+                    font-size: 2em;
+                }
+            }
+        }
+        }
+    }
+footer {
+    height: 30vh;
+    text-align: center;
+    background-color: black;
+    #cont_footer {
+        h3 {
+            color: gray;
+            margin-top: 0;
+        }
+        #cont_sociaux {
+            width: 30%;
+            margin: auto;
+            ul{
+                display: flex;
+                justify-content: space-around;
+                list-style-type: none;
+                padding-left: 0;            
+                li{
+
+                    .fa-twitter{
+                        background-color: blue;
+                        color: white;
+                        font-size: 2em;
+                          
+                    }        
+                    .fa-rss{
+                        background-color: #F64E4E;
+                        color: white;
+                        font-size: 2em;
+                    }        
+                    .fa-facebook-f{
+                        width: 1.2em;
+                        background-color: blue;
+                        color: white;
+                        font-size: 2em;
+                    }        
+                    .fa-tree{
+                        background-color: green;
+                        color: white;
+                        font-size: 2em;
+                    }        
+                    .fa-google-plus-g{
+                        color: white;
+                        background-color: red;
+                        font-size: 2em;
+                    }        
+                    .fa-dribbble{
+                        color: white;
+                        background-color: pink;
+                        font-size: 2em;
+                    }
+                    .fa-pinterest-p{
+                        color: white;
+                        background-color: red;
+                        font-size: 2em;
+                    }
+                    .fa-instagram{
+                        color: white;
+                        background: linear-gradient(#e66465, #9198e5);
+                        font-size: 2em;
+                    }                            
+                }
+            }
+        }
+        #stuff{
+            text-align: center;
+
+            .freestuff{
+                width: 10%;
+                margin: auto;
+                background-color: #F64E4E;
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}           
+}
